@@ -1,16 +1,72 @@
 body {
-    background-color: #968e4c;
+    background-image: url('flight.jpg');
+    background-size: cover;
+    background-position: center;
     text-align: center;
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    color: #333;
 }
 
 .navbar {
-    background-color: #2E75B6;
+    background-color: #004080; /* Dark blue background for better contrast */
+    border: none;
+    padding: 5px 20px;
 }
 
-a {
-    color: #f1f9f9;
+.navbar-brand {
+    color: #fff !important;
+    font-size: 1.8rem;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
 }
 
-a:hover {
-    color: #f0f0f0;
-  }
+.navbar-brand img {
+    height: 30px;
+    margin-right: 10px;
+}
+
+.card {
+    background-color: #e0e0e0; /* Light grey background for better visibility */
+    border: 1px solid #b0b0b0;;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-bottom: 0px;
+    padding: 10px;
+}
+
+.card-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #004080; /* Matching the navbar color */
+}
+
+.form-control {
+    margin-top: 0px;
+}
+
+.btn-primary {
+    background-color: #004080;
+    border-color: #004080;
+    font-size: 1.2rem;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.btn-primary:hover {
+    background-color: #003366;
+    border-color: #003366;
+}
+
+h3 {
+    background-color: #333333; /* Dark gray background for contrast */
+    color: #FFFFFF; /* White text for readability */
+    font-weight: bold;
+    margin-top: 10px;
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Slightly darker shadow for emphasis */
+}
